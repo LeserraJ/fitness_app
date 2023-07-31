@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body{
+    /*background-color: #34b4e5;*/
+    background-color: #e7e1d4;
+}
+
+
+.nav-list{
+   list-style-type: none;
+   display: flex;
+   border:  2px solid black;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.nav-list li{
+    padding: 0 .5rem;
+    display: flex ;
+
+}
+
+.nav-list .home {
+    border: 4px dotted lime;
+    display: flex;
+    justify-self: left;
+}
+
+.nav-list .contact{ 
+    border: 4px dotted blue; 
+}
+
+
+.nav-list .about{
+    border: 4px dotted red;
+}
+
