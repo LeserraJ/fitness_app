@@ -1,45 +1,54 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
+a {
+    text-decoration: none;
+}
 
-
-
+a:hover{
+    background-color: #C0C0C0;
+}
 
 body{
-    /*background-color: #34b4e5;*/
-    background-color: #e7e1d4;
+    background-color: #151A85;
+    
 }
 
 
 .nav-list{
    list-style-type: none;
-   display: flex;
-   border:  2px solid black;
    align-items: center;
-   justify-content: center;
-   
+   align-content: center;
+   width: 75%
 }
 
 .nav-list li{
     padding: 0 .5rem;
-    display: flex ;
-
-}
-
-.nav-list .home {
-    border: 4px dotted lime;
-    display: flex;
-    justify-self: left;
+    display: inline;
+    
 }
 
 .nav-list .contact{ 
-    border: 4px dotted blue; 
+    float: right;
 }
 
 
 .nav-list .about{
-    border: 4px dotted red;
+    float: right;
 }
 
+
+.title{
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+
+
+
+.text-h4{
+    padding-top: 2rem;
+    padding-left: .5rem;
+}
